@@ -1,3 +1,12 @@
+.. title: Create SPA: React + Typescript + Parcel
+title: react-typescript-parcel
+.. slug: react-typescript-parcel
+slug: react-typescript-parcel
+.. date: 2019/01/01 13:30:02
+date: 2019-01-01 16:00:00 UTC
+.. tags: React, Typescript, Parcel, SPA
+tags: React, Typescript, Parcel, SPA
+
 # Create SPA: React + Typescript + Parcel
 
 I was about to start yet another personal project, it consists of a SPA (Single Page Application) for a travel journal.
@@ -79,6 +88,7 @@ I've added a non-required dependency, it is a plugin to generate a report of gen
 ```bash
 yarn add --dev parcel-plugin-bundle-visualiser
 ```
+
 ## Create application source code
 First we create the React application in `index.tsx` file.
 ```tsx
@@ -108,7 +118,6 @@ Parcel can take index.html file as entry file and it figures out how to build th
 </html>
 ```
 
-
 ## Configure Typescript (optional)
 Create a `tsconfig.json` file.
 ```json
@@ -123,10 +132,12 @@ Create a `tsconfig.json` file.
     }
 }
 ```
+
 With this configuration, Typescript compiler will:
- - Generate files in `dist` folder.
- - Generate [source maps](https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map).
- - Will not allow to declare `any` type, for example following declaration is not allowed: `const elements: any;`
- - Generated module code will be [CommonJs](https://requirejs.org/docs/commonjs.html).
- - Generated code will be [ECMAScript](https://es.wikipedia.org/wiki/ECMAScript) 5 compliant.
- - Support [JSX](https://www.typescriptlang.org/docs/handbook/jsx.html) in .tsx files, in this case React type.
+ 
+- Generate files in `dist` folder.
+- Generate [source maps](https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map).
+- Will not allow to declare `any` type, for example following declaration is not allowed: `const elements: any;`
+- Generated module code will be [CommonJs](https://requirejs.org/docs/commonjs.html).
+- Generated code will be [ECMAScript](https://es.wikipedia.org/wiki/ECMAScript) 5 compliant.
+- Support [JSX](https://www.typescriptlang.org/docs/handbook/jsx.html) in .tsx files, in this case React type.
