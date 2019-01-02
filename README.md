@@ -1,11 +1,9 @@
 
 # Create SPA: React + Typescript + Parcel
 
-I was about to start yet another personal project, it consists of a SPA (Single Page Application) for a travel journal.
+Example project how to create a Single Page Application with React, Typescript and Parcel.
 
-Some time ago a tried [Parcel](https://parceljs.org), I really loved how simple was to create a simple project from scratch using [Typescript](https://www.typescriptlang.org/) + [React](https://reactjs.org) stack. I've decided to create this template project, so next time I want to create a new SPA with my favorite frontend stack, I will only have to clone https://github.com/carlosvin/react-typescript-parcel-template.git.
-
-**You can find a description how I created this project skeleton at: https://carlosvin.github.io/posts/react-typescript-parcel**
+**You can find an step by step description how I created this project skeleton at: https://carlosvin.github.io/posts/react-typescript-parcel**
 
 # Quick start
 
